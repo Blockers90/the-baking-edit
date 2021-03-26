@@ -1,0 +1,155 @@
+/*  
+ *{
+    background-color:#FFADAD;
+    
+}*
+
+h1{
+    color:#FFFFFF;
+    font-size: 50px;
+}
+
+ /* .salmonBackground {
+    background-color:lightsalmon;
+    color:linen;
+}  */
+/* 
+.center {
+    text-align: center; } */ 
+/* 
+    @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&display=swap');
+
+    * {
+        box-sizing: border-box;
+    }
+    .box {
+        color:white;
+        font-size: 50px;
+        font-family: 'Averia Serif Libre', cursive;
+        text-align: center;
+        padding:15px;
+      
+    }
+      
+      .box1 { background:#eccc68;}
+      .box2 { background:#ff6348;}
+      .box3 { background:#ff7f50;}
+      .box4 { background:#ff4757;}
+      .box5 { background:#f1c40f;}
+    
+    .container {
+        display: flex;
+        justify-content: center;
+    } */
+
+    @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&display=swap');
+
+  *{
+    box-sizing: border-box;
+  }*
+
+  
+     body {
+        /* font-family: Montserrat, sans-serif; */
+        font-family: 'Averia Serif Libre', cursive;
+        background-image: url("background.png");
+        background-repeat: repeat;
+        background-color: #cccccc;
+        }    
+  
+  .nav-list {
+    background:#FFC6FF;
+    box-shadow: 0px 0px 10px #BDB2FF;
+    padding: 1rem 0;
+    border-radius: 0.2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .nav-item {
+    list-style: none;
+    margin-right: 2rem;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    transition: all 200ms ease-in;
+  }
+  
+  .nav-item a:hover {
+    color:  #A0C4FF;
+  }
+  
+  .nav-item:first-child {
+    margin-right: auto;
+    margin-left: 2rem;
+  }
+  
+  .btn-one {
+    font-family: Montserrat, sans-serif;
+    font-size: 1rem;
+    background: #FFADAD;
+    border: none;
+    outline: none;
+    border-radius: 0.2rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: all 200ms ease-in;
+  }
+  
+  .btn-one:hover {
+    background: #BDB2FF;
+  }
+
+  .btn-two {
+    font-family: Montserrat, sans-serif;
+    font-size: 1rem;
+    background: #FFD6A5;
+    border: none;
+    outline: none;
+    border-radius: 0.2rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: all 200ms ease-in;
+  }
+
+  .btn-two:hover {
+    background:  #BDB2FF;
+  }
+  
+  .btn-three {
+    font-family: Montserrat, sans-serif;
+    font-size: 1rem;
+    background: #FDFfB6;
+    border: none;
+    outline: none;
+    border-radius: 0.2rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: all 200ms ease-in;
+  }
+
+  .btn-three:hover {
+    background:  #BDB2FF;
+  }     
+
+  .btn-four {
+    font-family: Montserrat, sans-serif;
+    font-size: 1rem;
+    background: #caffbf;
+    border: none;
+    outline: none;
+    border-radius: 0.2rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: all 200ms ease-in;
+  }
+
+  .btn-four:hover {
+    background:  #BDB2FF;
+  }
+
+  
