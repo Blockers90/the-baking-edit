@@ -1,61 +1,20 @@
-/*  
- *{
-    background-color:#FFADAD;
-    
-}*
+    @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&display=swap');
 
-h1{
-    color:#FFFFFF;
-    font-size: 50px;
+body {
+    /* font-family: Montserrat, sans-serif; */
+    font-family: 'Averia Serif Libre', cursive;
+    background-image: url("images/background.png");
+    background-repeat: repeat;
+    background-color: #cccccc;
+    }   
+
+.transparent-background {
+    background-color: rgba(253, 255, 182, 0.5);
 }
-
- /* .salmonBackground {
-    background-color:lightsalmon;
-    color:linen;
-}  */
-/* 
-.center {
-    text-align: center; } */ 
-/* 
-    @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&display=swap');
-
-    * {
-        box-sizing: border-box;
-    }
-    .box {
-        color:white;
-        font-size: 50px;
-        font-family: 'Averia Serif Libre', cursive;
-        text-align: center;
-        padding:15px;
-      
-    }
-      
-      .box1 { background:#eccc68;}
-      .box2 { background:#ff6348;}
-      .box3 { background:#ff7f50;}
-      .box4 { background:#ff4757;}
-      .box5 { background:#f1c40f;}
-    
-    .container {
-        display: flex;
-        justify-content: center;
-    } */
-
-    @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&display=swap');
 
   *{
     box-sizing: border-box;
-  }*
-
-  
-     body {
-        /* font-family: Montserrat, sans-serif; */
-        font-family: 'Averia Serif Libre', cursive;
-        background-image: url("background.png");
-        background-repeat: repeat;
-        background-color: #cccccc;
-        }    
+  }
   
   .nav-list {
     background:#FFC6FF;
@@ -88,68 +47,52 @@ h1{
     margin-left: 2rem;
   }
   
-  .btn-one {
-    font-family: Montserrat, sans-serif;
-    font-size: 1rem;
-    background: #FFADAD;
-    border: none;
-    outline: none;
-    border-radius: 0.2rem;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-    transition: all 200ms ease-in;
+
+
+
+   div.gallery {
+    border: 1px solid #ccc;
   }
   
-  .btn-one:hover {
-    background: #BDB2FF;
-  }
-
-  .btn-two {
-    font-family: Montserrat, sans-serif;
-    font-size: 1rem;
-    background: #FFD6A5;
-    border: none;
-    outline: none;
-    border-radius: 0.2rem;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-    transition: all 200ms ease-in;
-  }
-
-  .btn-two:hover {
-    background:  #BDB2FF;
+  div.gallery:hover {
+    border: 1px solid #777;
   }
   
-  .btn-three {
-    font-family: Montserrat, sans-serif;
-    font-size: 1rem;
-    background: #FDFfB6;
-    border: none;
-    outline: none;
-    border-radius: 0.2rem;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-    transition: all 200ms ease-in;
+  div.gallery img {
+    width: 100%;
+    height: auto;
   }
-
-  .btn-three:hover {
-    background:  #BDB2FF;
-  }     
-
-  .btn-four {
-    font-family: Montserrat, sans-serif;
-    font-size: 1rem;
-    background: #caffbf;
-    border: none;
-    outline: none;
-    border-radius: 0.2rem;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-    transition: all 200ms ease-in;
-  }
-
-  .btn-four:hover {
-    background:  #BDB2FF;
-  }
-
   
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }   
